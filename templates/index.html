@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Backend stuff</title>
+</head>
+<body>
+
+<h1>The Backend way</h1>
+<h2>What is the skills of backend developer? </h2>
+<p> A backend developer should, of course, have non-technical skills such as problem-solving, critical thinking, effective communication, and analytical abilities. It is important for a backend developer to also be able to work both as part of a team, and independently. </p>
+<br>
+<h2>What is the salary of a backend developer?</h2>
+ <table>
+  <tr>
+    <th>Annual Salary</th>
+    <th>Hourly Wage</th>
+  </tr>
+  <tr>
+    <td>$165,000</td>
+    <td>$79</td>
+  </tr>
+</table>
+<br>
+	<ul>
+	{% for frw in framework %}
+	<li><a href="/framework/{{ frw }}">{{ frw }}</a><li/>
+	{% endfor %}
+	</ul>
+</body>
+</html> 
